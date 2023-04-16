@@ -1,0 +1,100 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family: Arial;
+
+}
+
+section{
+    
+    min-height:100vh;
+    width:100%;
+    background-color: brown;
+    background-image: url('image/istockphoto-1414572772-612x612.jpg');
+    background-position: center;
+    background-size:cover;
+    
+}
+
+.form-box{
+    margin-top:15px;
+    position:relative;
+    width:40%;
+    height:850px;
+    background-color:transparent;
+    border:2px solid rgba(0, 0, 0, 0.5);
+    border-radius:20px;
+    backdrop-filter: blur(20px);
+    margin-left:370px;  
+}
+
+.form-value{
+    display:grid;
+    grid-template-columns: 150px 150px ;
+    text-align: center;
+    margin-left:120px;
+    font:Arial;
+    color:white;
+    height:35px;
+    background-color: black;
+    border-radius: 8px;
+    width:300px;
+    
+    
+}
+
+.logo-icon{
+    width:150px;
+    margin-left:530px;
+    margin-top:50px;
+    margin-bottom:20px;
+
+}
+
+h1{
+    
+    color:black;
+    font-family:Arial;
+    text-align: center;
+    font-size:2em; 
+    margin:50px 0px; 
+}
+
+.inputbox{
+    border-right: 2px solid white;
+    margin-bottom:30px;
+    margin-top:5px; 
+    
+}
+
+.inputbox2{
+    flex:1;
+    color:black;
+    border:1px solid black;
+    font-size:small;
+    backdrop-filter: blur(25px); 
+    height:30px;     
+    font:arial;
+    font-size:15px;
+} 
+
+.inputbox1{
+    
+    flex:1;
+    color:black;
+    border:1px solid white;
+    font-size:small;
+    backdrop-filter: blur(25px); 
+    height:30px;     
+    font:arial;
+    font-size:15px;
+} 
+
+
+.footer a{
+    color:black;
+    margin-left:40px;
+    font:Arial;
+    font-size:medium;
+}
+

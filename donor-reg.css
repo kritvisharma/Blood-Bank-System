@@ -1,0 +1,134 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family: Arial;
+
+}
+
+section{
+    
+    min-height:100vh;
+    width:100%;
+    background-color: brown;
+    background-image: url('image/istockphoto-1414572772-612x612.jpg');
+    background-position: center;
+    background-size:cover;
+}
+
+.form-box{
+    margin-top:15px;
+    position:relative;
+    width:500px;
+    height:1000px;
+    background-color:transparent;
+    border:2px solid rgba(0, 0, 0, 0.5);
+    border-radius:20px;
+    backdrop-filter: blur(20px);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-left:400px;
+    
+}
+
+
+
+
+h2{
+    color:black;
+    font-family:Arial;
+    text-align: center;
+    font-size:2em; 
+    margin:50px 0px;  
+}
+
+.inputbox {
+    position:relative;
+    margin: 30px 0px;
+    width: 310px;
+    border-bottom: 2px solid black;
+}
+
+
+.inputbox input{
+    width:100%;
+    height:20px;
+    background:transparent;
+    border:none;
+    outline:none;
+    font-size:0.8em;
+    padding: 0 35px 0 5px;
+    color:black;
+    
+}
+
+
+.inputbox label{
+    color:black;
+    font-family:Arial;
+    margin-top:35px;
+    margin-bottom:10px;    
+    color:black;
+    font-size:1em;
+    pointer-events: none;
+    transition:0.5s;
+    top:50%;
+    left:5px;
+    transform: translateY(-50%);
+    position:relative;
+}
+
+
+input:focus ~ label,
+input:valid ~ label{
+    top:-5px;
+}
+
+
+.login input{
+    width:100%;
+    height:40px;
+    border-radius:40px;
+    background-color: black;
+    border:solid black;
+    cursor:pointer;
+    font-size:1em;
+    font-weight:600px;
+    color:white;
+
+}
+
+.login input:hover{
+    background-color:rgb(110, 34, 34);
+    color:white;
+
+}
+    
+
+.select{
+    width:100%;
+    height:40px;
+    border-radius:40px;
+    background-color: transparent;
+    border:solid;
+    cursor:pointer;
+    font-size:1em;
+    font-weight:600px;
+    color:black;
+
+}
+
+
+.footer a{
+    color:black;
+    font-size:medium;
+    margin-left:130px;
+
+}
+
+.logo-icon{
+    width:150px;
+    margin-left:320px;
+    margin-top:50px;
+
+}

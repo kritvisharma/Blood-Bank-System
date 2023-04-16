@@ -1,0 +1,152 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family: Arial;
+
+}
+
+section{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height:100vh;
+    width:100%;
+    background-color: brown;
+    background-image: url('image/istockphoto-1414572772-612x612.jpg');
+    background-position: center;
+    background-size:cover;
+
+}
+
+.form-box{
+    position:relative;
+    width:400px;
+    height:460px;
+    background-color:transparent;
+    border: 2px solid rgba(0, 0, 0, 0.9);
+    border-radius:20px;
+    backdrop-filter: blur(30px);
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+h2{
+    font-size:2em;
+    color:black;
+    text-align: center;
+}
+
+.inputbox{
+    position:relative;
+    margin: 30px 0px;
+    width: 310px;
+    border-bottom: 2px solid black;
+}
+
+.inputbox label{
+    position:absolute;
+    top:50%;
+    left:5px;
+    transform: translateY(-50%);
+    color:black;
+    font-size:1em;
+    pointer-events: none;
+    transition:0.5s;
+}
+
+input:focus ~ label,
+input:valid ~ label{
+    top:-5px;
+}
+
+.inputbox input{
+    width:100%;
+    height:50px;
+    background:transparent;
+    border:none;
+    outline:none;
+    font-size:1em;
+    padding: 0 35px 0 5px;
+    color:black;
+}
+
+.inputbox ion-icon{
+    position:absolute;
+    right:8px;
+    color:black;
+    font-size:1.2em;
+    top:20px;
+
+}
+
+.forget{
+    margin:-15px 0 15px;
+    font-size:0.9em;
+    color:black;
+    display:flex;
+    justify-content: center;
+}
+
+.forget label input{
+    margin-right:3px;
+
+}
+
+.forget label a{
+    color:black;
+    text-decoration: none;
+    margin-left:15px;
+}
+
+.forget label a:hover{
+    text-decoration: underline;
+}
+
+.login input{
+    width:100%;
+    height:40px;
+    border-radius:40px;
+    background-color: black;
+    border:solid;
+    cursor:pointer;
+    font-size:1em;
+    font-weight:600px;
+    color:white;
+
+}
+
+.login input:hover{
+    background-color:rgb(110, 34, 34);
+    border-color:black;
+    border:solid;
+    color:white
+
+}
+
+.register{
+    font-size:0.9em;
+    color:black;
+    text-align: center;
+    margin:25px 0 10px;
+
+}
+
+.register p a{
+    text-decoration: none;
+    color:black;
+    font-weight:600;
+
+}
+
+.register p a:hover{
+    text-decoration:underline;
+
+}
+
+.logo-icon{
+    width:100px;
+    margin-left:150px;
+    margin-bottom:30px;
+    margin-top:20px;
+}

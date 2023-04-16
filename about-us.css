@@ -1,0 +1,140 @@
+
+*{
+    margin:0px;
+    padding:0px;
+    font-family: Arial;
+
+}
+
+section{
+    
+    min-height:100vh;
+    width:100%;
+    background-color: brown;
+    background-image: url('image/istockphoto-1414572772-612x612.jpg');
+    background-position: center;
+    background-size:cover;
+    
+}
+
+.logo-icon{
+    width:150px;
+    margin-left:530px;
+    margin-top:50px;
+    margin-bottom:20px;
+
+}
+
+.heading{
+    background-color: black;
+    width:500px;
+    height:50px;
+    margin: auto;
+    border-radius: 20px;
+    margin-bottom:30px;
+
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
+    font-size:27px;
+    text-align: center;
+    color:white;
+    vertical-align: center;
+    padding-top:10px;
+}
+
+.flex-box{
+    display:flex;
+    justify-content: space-between;
+    width:93%;
+    margin:auto;
+    margin-top:30px;
+
+}
+
+.elements{
+    background-color: Black;
+    gap: 20px;
+    margin-left:10px;
+    border-radius:10px;
+    padding: 5px, 5px;
+    height:420px;
+    
+}
+
+.points{
+    color:white;
+    font-size:14px;
+    font-family: 'Roboto', sans-serif;
+    padding:20px 10px;   
+}
+
+.image{
+    width:200px;
+    height:150px;
+    border-radius:10px;
+    border:2px solid white;
+    justify-content: center;
+    margin-top:5px;
+    margin-left:10px;
+}
+
+.image1{
+    width:250px;
+    margin-top: 4px;
+    border-radius:10px;
+    border:2px solid white;
+    margin-left:30px;
+}
+
+.image2{
+    width:230px;
+    height:180px;
+    border-radius:10px;
+    border:2px solid white;
+    margin-left:10px;
+    margin-top:8px;
+    margin-right:10px;
+}
+
+.image3{
+    width:250px;
+    border-radius:10px;
+    border:2px solid white;
+    margin-top:4px;
+    margin-left:40px;
+    
+}
+
+
+.login input{
+    width:25%;
+    height:40px;
+    border-radius:40px;
+    font-size:1em;
+    font-weight:700px;
+    margin-left:450px;
+    color:black;
+    border: 2px solid black;
+    background-color:transparent;
+    backdrop-filter: blur(20px);
+    
+
+}
+
+.login input:hover{
+    background-color: rgb(110, 34, 34);
+    border:2px solid white;
+    color:white;
+    cursor:pointer;
+
+}
+
+
+.footer a{
+    color:black;
+    font-size:large;
+    margin-left:70px;
+
+}
