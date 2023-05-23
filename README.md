@@ -1,3 +1,3 @@
-# Blood-Bank-System
+# RAKT
 
-A Blood Bank System designed using HTML/CSS, MySQL using PHP. It's functionalities include a Login Page, a Donor Registration Form to register potential Donors, a Donor List that exists and updates donors as they register. Other functionalities include a Blood Availability List that displays the quantity of each type of blood as well as updates the list as and when units of blood are exchanged which is recorded by an Exchange Donor form. About Us and About Blood Donation pages complete the website with information about the organization as well as lesser known facts about donating Blood.
+RAKT- A Blood Bank System designed using HTML/CSS, MySQL using PhpMyAdmin. It's functionalities include a Login Page, a Donor Registration Form to register potential donors, a Donor List that displays the donors as well as other functionalities. 
