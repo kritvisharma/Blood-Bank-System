@@ -12,15 +12,22 @@ RAKT- Functionalities include a Login Page, a Donor Registration Form to registe
 # 💻Tech Stack used
 
 MySQL - I have used MySQL to create a database, store data, edit/update/delete
+
 phpMyAdmin - I have used phpMyAdmin integrate the front-end with MySQL
+
 HTML, CSS- Created beautiful UI using these languages
 
 # ✨Features
 
 -Login: Allows only Registered users to Log In.
+
 -A home page displays the functionalities. 
+
 -A form for registration of donors
+
 -A list to display the registered donors 
+
 -A list to check/update availability of blood as required 
+
 -Other pages to complete the site- including an About Us Page.
 
