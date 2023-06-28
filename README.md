@@ -9,26 +9,18 @@ RAKT- Functionalities include a Login Page, a Donor Registration Form to registe
 ![Screenshot (82)](https://github.com/kritvisharma/RAKT/assets/129278877/b3d36698-3087-4faf-b6cc-004f14e48e7f)
 ![Screenshot (83)](https://github.com/kritvisharma/RAKT/assets/129278877/8ec6d620-7cd1-431f-a640-557e2692ec81)
 
-
-📓Problem Statement
-
-There is a need for a platform to incorporate the process of registering a donor, displaying a list of pre-existing donors and Availability of Blood and other relevant information.
-
-🟢 Innovative Idea
-
-The platform that we have caters to all these issues.
-The platform allows users to edit/update/delete/view the relevant information, the necessary and backend data is abstracted and can be viewed and edited by the Admin only.
-
-💻 Tech Stack used
+# 💻Tech Stack used
 
 MySQL - I have used MySQL to create a database, store data, edit/update/delete
 phpMyAdmin - I have used phpMyAdmin integrate the front-end with MySQL
 HTML, CSS- Created beautiful UI using these languages
 
-✨ Features
+# ✨Features
 
-Login - Allows only Registered users to Log In.
-A home page displays the functionalities. 
-A form for registration of donors, a list to display the donors, a list to check/update availability of blood as required and other pages to complete the site- including a About Us Page.
-
+-Login: Allows only Registered users to Log In.
+-A home page displays the functionalities. 
+-A form for registration of donors
+-A list to display the registered donors 
+-A list to check/update availability of blood as required 
+-Other pages to complete the site- including an About Us Page.
 
